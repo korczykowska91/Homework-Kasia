@@ -1,0 +1,6 @@
+{
+  "url": "${url}",
+  "timeout": "${timeout}",
+  "user": "${user}",
+  "password": "${password}"
+}
