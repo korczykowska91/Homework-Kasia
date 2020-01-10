@@ -23,6 +23,7 @@ public class BaseTest {
     public MyAccountPage myAccountPage = new MyAccountPage(DriverBoss.getInstance());
     public PrintedSummerDressPage printedSummerDressPage = new PrintedSummerDressPage(DriverBoss.getInstance());
     public ResultSearchPage resultSearchPage = new ResultSearchPage((DriverBoss.getInstance()));
+    public AboutUsPage aboutUsPage = new AboutUsPage((DriverBoss.getInstance()));
 
     @Before
     public void setUp() {

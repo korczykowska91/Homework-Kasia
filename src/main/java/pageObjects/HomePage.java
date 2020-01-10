@@ -27,6 +27,9 @@ public class HomePage {
     @FindBy(name = "submit_search")
     private WebElement searchButton;
 
+    @FindBy (xpath = "//a[contains(text(),'About us')]")
+    private WebElement aboutUsButton;
+
     public void clickSignInButton(){
 
         Actions.click(signInButton,"SignIn Button");
@@ -45,5 +48,8 @@ public class HomePage {
     }
     public void clickSearchButton(){
         Actions.click(searchButton, "Click search button");
+    }
+    public void clickAboutUsButton(){
+        Actions.click(aboutUsButton, "About Us Button");
     }
 }
